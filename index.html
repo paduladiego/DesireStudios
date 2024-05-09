@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="./assets/img/ico/favicon.ico" type="image/x-icon">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/ico/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="150x150" href="./assets/img/ico/mstile-150x150.png">
+        <link rel="icon" type="image/png" sizes="196x196" href="./assets/img/ico/favicon-196x196.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="./assets/img/ico/android-chrome-512x512.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/ico/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/ico/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/ico/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/ico/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/ico/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/ico/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/ico/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/ico/apple-touch-icon.png">
+        <link rel="manifest" href="./assets/img/ico/site.webmanifest">
+        <link rel="mask-icon" href="./assets/img/ico/safari-pinned-tab.svg" color="#b40000">
+        <meta name="msapplication-TileColor" content="#b40000">
+        <meta name="theme-color" content="#ffffff">
+        <!-- favicon -->
+        <title>DESIRE Studios</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                touch-action: none;
+
+            }
+
+            body {
+                overflow: hidden;
+                height: 100vh;
+                width: 100vw;
+            }
+
+            h1 {
+                display: none;
+            }
+
+            .logo {
+                /* position: absolute; */
+                /* top: 20vh; */
+                margin-top: -10vh;
+            }
+
+            main {
+                display: flex;
+                height: 90%;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+
+            }
+
+            svg {
+                height: 20vw;
+            }
+
+            .degrade {
+                position: absolute;
+                top: 76vh;
+                opacity: .15;
+            }
+
+            .video {
+                width: 100%;
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                height: auto;
+                min-height: 100%;
+                object-fit: cover;
+                z-index: -1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <h1>DESIRE STUDIOS LTDA</h1>
+            <svg class="logo" width=" 500" height="500" viewBox="0 0 500 500" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M459.472 443.347L497 301.909L170.007 56H2L426.929 313.701L395.339 369.846L231.169 397.195L246.51 272.653L148.924 443.347H459.472Z"
+                    fill="#FFF" />
+            </svg>
+            <svg class="degrade" width="500" height="500" viewBox="0 0 500 500" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_18_8)">
+                    <path
+                        d="M456.472 56L494 197.312L167.007 443H-1L423.929 185.53L392.339 129.435L228.169 102.111L243.51 226.541L145.924 56L456.472 56Z"
+                        fill="url(#paint0_linear_18_8)" />
+                </g>
+                <defs>
+                    <linearGradient id="paint0_linear_18_8" x1="246" y1="-51" x2="246" y2="400.5"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="white" stop-opacity="0.7" offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <clipPath id="clip0_18_8">
+                        <rect width="500" height="500" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <video class="video" data-aid="HEADER_VIDEO" poster="https://img1.wsimg.com/isteam/videos/uA41GmyyG8IMaxXdb"
+                autoplay="" loop="" muted="" playsinline=""
+                src="https://websites.godaddy.com/categories/v4/videos/raw/video/uA41GmyyG8IMaxXdb"></video>
+        </main>
+    </body>
+
+</html>
